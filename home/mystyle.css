@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4a6fa5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #2f4f4f;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    color: brown;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+p {
+    color: #333333;
+    font-size: 18px;
+}
+
+li {
+    color: blueviolet;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.photo-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo-gallery img {
+    width: 32%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.school-links a {
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.school-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4a6fa5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
