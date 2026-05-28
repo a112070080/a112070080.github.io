@@ -66,11 +66,3 @@ section#about {
     background-attachment: fixed !important;
 }
 
-/* 桌機版：只讓首頁撐滿右側可視範圍 */
-@media (min-width: 992px) {
-    section#about {
-        width: calc(100vw - 17rem) !important;
-        max-width: calc(100vw - 17rem) !important;
-        min-height: 100vh !important;
-    }
-}
