@@ -1,3 +1,9 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 .christycenter{
     text-align: center;
     color:aquamarine;
@@ -52,6 +58,14 @@ section#about{
     background-image: url(../assets/img/bg.jpg);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 section#cta{
     background-color: aqua;
 }
