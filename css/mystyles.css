@@ -57,12 +57,18 @@ section#cta{
     background-color: aqua;
 }
 
-/* 只改第一頁首頁背景，不影響教育經驗等其他頁 */
+/* 先把所有區塊恢復乾淨，避免富士山跑到其他頁 */
+section.resume-section {
+    background-image: none !important;
+    background-color: transparent;
+}
+
+/* 只有第一頁 about 才使用富士山背景 */
 section#about {
+    background-color: rgb(22, 173, 232);
     background-image: url("../assets/img/bg.jpg") !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
 }
-
