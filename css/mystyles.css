@@ -85,3 +85,37 @@ main,
     margin: 0;
     padding: 0;
 }
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    min-height: 100% !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    background-image: url("../assets/img/bg.jpg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.container-fluid,
+.resume-section,
+.resume-section-content {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+}
+
+.resume-section {
+    min-height: 100vh !important;
+    background: transparent !important;
+}
+
+section#about {
+    width: 100% !important;
+    min-height: 100vh !important;
+    background: transparent !important;
+}
