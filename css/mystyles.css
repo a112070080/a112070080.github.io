@@ -47,21 +47,12 @@ a.christylink:hover{
     text-align: center;
 }
 
-section#about{
-    background-color: rgb(22, 173, 232);
-    background-image: url(../assets/img/bg.jpg);
-    background-position: center;
-    background-attachment: fixed;
-}
+
 section#cta{
     background-color: aqua;
 }
 
 /* 先把所有區塊恢復乾淨，避免富士山跑到其他頁 */
-section.resume-section {
-    background-image: none !important;
-    background-color: transparent;
-}
 
 /* 只有第一頁 about 才使用富士山背景 */
 section#about {
