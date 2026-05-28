@@ -56,45 +56,21 @@ section#about{
 section#cta{
     background-color: aqua;
 }
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100%;
-    overflow-x: hidden;
+
+/* 只改第一頁首頁背景，不影響教育經驗等其他頁 */
+section#about {
+    background-image: url("../assets/img/bg.jpg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
 
+/* 桌機版：只讓首頁撐滿右側可視範圍 */
 @media (min-width: 992px) {
-    body {
-        padding-left: 17rem !important;
-        margin: 0 !important;
-    }
-
-    #sideNav {
-        width: 17rem !important;
-    }
-
-    .container-fluid {
-        width: calc(100vw - 17rem) !important;
-        max-width: calc(100vw - 17rem) !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    section.resume-section {
+    section#about {
         width: calc(100vw - 17rem) !important;
         max-width: calc(100vw - 17rem) !important;
         min-height: 100vh !important;
-        padding: 0 !important;
-        background-image: url("../assets/img/bg.jpg") !important;
-        background-size: cover !important;
-        background-position: center center !important;
-        background-repeat: no-repeat !important;
-    }
-
-    section.resume-section .resume-section-content {
-        width: 100% !important;
-        max-width: none !important;
-        margin: 0 !important;
     }
 }
