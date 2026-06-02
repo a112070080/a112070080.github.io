@@ -71,3 +71,12 @@ section#about {
         width: calc(100vw - 17rem) !important;
     }
 }
+
+.album-img {
+    height: 320px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #343a40;
+}
