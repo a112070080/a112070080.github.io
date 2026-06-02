@@ -30,10 +30,34 @@
                 }
             }
 
-            .album-img {
-                height: 320px;
-                object-fit: cover;
-            }
+            section#skills {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+section#skills .resume-section-content {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    section#skills {
+        width: calc(100vw - 17rem) !important;
+    }
+}
+
+.album-img {
+    height: 520px;
+    object-fit: cover;
+}
+
+#skills .card {
+    min-height: 760px;
+}
+
+#skills .card-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
 
             .card-title {
                 color: #343a40;
