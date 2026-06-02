@@ -1,5 +1,3 @@
-可以。你把 GitHub 的 `index.html` 全部刪掉，整份貼上下面這份就好。
-
 ```html
 <!DOCTYPE html>
 <html lang="zh-TW">
@@ -61,6 +59,51 @@ section#skills .resume-section-content {
 
             .card-title {
                 color: #343a40;
+            }
+
+            section#interests {
+                max-width: none !important;
+                width: 100% !important;
+            }
+
+            section#interests .resume-section-content {
+                width: 100%;
+            }
+
+            @media (min-width: 992px) {
+                section#interests {
+                    width: calc(100vw - 17rem) !important;
+                }
+            }
+
+            .photo-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 24px;
+            }
+
+            .photo-grid img {
+                width: 100%;
+                height: 360px;
+                object-fit: cover;
+                border-radius: 8px;
+                display: block;
+            }
+
+            @media (max-width: 991px) {
+                .photo-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                .photo-grid img {
+                    height: 260px;
+                }
+            }
+
+            @media (max-width: 575px) {
+                .photo-grid {
+                    grid-template-columns: 1fr;
+                }
             }
         </style>
     </head>
@@ -285,8 +328,40 @@ MV 亮點： 聖結石首次親自執導 MV，前半段唯美浪漫，後半段�
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>這裡可以放你的興趣，例如聽音樂、看 MV、運動、旅行、看電影或其他喜歡的事情。</p>
-                    <p class="mb-0">你也可以把這段改成中文自我介紹，讓網站看起來更完整。</p>
+
+                    <div class="photo-grid">
+                        <a href="assets/img/interest1.jpg" target="_blank">
+                            <img src="assets/img/interest1.jpg" alt="興趣圖片一">
+                        </a>
+
+                        <a href="assets/img/interest2.jpg" target="_blank">
+                            <img src="assets/img/interest2.jpg" alt="興趣圖片二">
+                        </a>
+
+                        <a href="assets/img/interest3.jpg" target="_blank">
+                            <img src="assets/img/interest3.jpg" alt="興趣圖片三">
+                        </a>
+
+                        <a href="assets/img/interest4.jpg" target="_blank">
+                            <img src="assets/img/interest4.jpg" alt="興趣圖片四">
+                        </a>
+
+                        <a href="assets/img/interest5.jpg" target="_blank">
+                            <img src="assets/img/interest5.jpg" alt="興趣圖片五">
+                        </a>
+
+                        <a href="assets/img/interest6.jpg" target="_blank">
+                            <img src="assets/img/interest6.jpg" alt="興趣圖片六">
+                        </a>
+
+                        <a href="assets/img/interest7.jpg" target="_blank">
+                            <img src="assets/img/interest7.jpg" alt="興趣圖片七">
+                        </a>
+
+                        <a href="assets/img/interest8.jpg" target="_blank">
+                            <img src="assets/img/interest8.jpg" alt="興趣圖片八">
+                        </a>
+                    </div>
                 </div>
             </section>
 
@@ -319,3 +394,4 @@ MV 亮點： 聖結石首次親自執導 MV，前半段唯美浪漫，後半段�
     </body>
 </html>
 ```
+
