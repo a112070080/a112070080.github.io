@@ -62,6 +62,12 @@ section#about {
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    max-width: none !important;
+        max-width: none !important;
     width: 100% !important;
+}
+
+@media (min-width: 992px) {
+    section#about {
+        width: calc(100vw - 17rem) !important;
+    }
 }
