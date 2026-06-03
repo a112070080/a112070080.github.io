@@ -48,8 +48,13 @@ a.christylink:hover{
 }
 
 
-section#cta{
+section#cta {
     background-color: aqua;
+    /* 想換即刻聯絡背景圖時，把圖片放到 assets/img/contact-bg.jpg */
+    background-image: url("../assets/img/contact-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 /* 先把所有區塊恢復乾淨，避免富士山跑到其他頁 */
