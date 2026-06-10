@@ -69,6 +69,24 @@ section#cta .resume-section-content {
     }
 }
 
+section#school,
+section#work {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+section#school .resume-section-content,
+section#work .resume-section-content {
+    max-width: none !important;
+    width: 100%;
+}
+
+#school .list-group,
+#school .table,
+#work .work-card {
+    width: 100%;
+}
+
 /* 先把所有區塊恢復乾淨，避免富士山跑到其他頁 */
 
 /* 只有第一頁 about 才使用富士山背景 */
@@ -96,10 +114,6 @@ section#about {
 
 .card-title {
     color: #343a40;
-}
-
-#work .resume-section-content {
-    max-width: 920px;
 }
 
 .work-entry {
