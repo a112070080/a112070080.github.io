@@ -156,6 +156,552 @@
                 border-color: #8FBFC8 !important;
                 color: #ffffff !important;
             }
+
+            #work .ranking-card {
+                margin-top: 1.4rem;
+                border-color: #decfc6;
+                box-shadow: 0 12px 28px rgba(90, 56, 37, 0.12);
+            }
+
+            #work .ranking-card .work-card-header {
+                display: flex;
+                align-items: center;
+                gap: 0.55rem;
+                background: linear-gradient(135deg, #8f8178 0%, #b49383 100%);
+            }
+
+            .ranking-row {
+                display: grid;
+                grid-template-columns: minmax(170px, 0.32fr) 1fr;
+                gap: 1rem;
+                align-items: start;
+                padding: 1rem;
+                border-top: 1px solid #ebe0da;
+                background-color: #fffdfb;
+            }
+
+            .ranking-row:nth-child(even) {
+                background-color: #fbf5f0;
+            }
+
+            .ranking-title {
+                display: flex;
+                align-items: center;
+                gap: 0.65rem;
+                color: #5a3825;
+                font-weight: 800;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                min-width: 3.4rem;
+                padding: 0.25rem 0.55rem;
+                border-radius: 999px;
+                background-color: #8FBFC8;
+                color: #ffffff;
+                font-size: 0.95rem;
+                font-weight: 800;
+            }
+
+            .ranking-note {
+                color: #5f5650;
+                line-height: 1.8;
+                margin: 0;
+            }
+
+            @media (max-width: 767px) {
+                .ranking-row {
+                    grid-template-columns: 1fr;
+                    gap: 0.45rem;
+                }
+            }
+        </style>
+    </head>
+
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">李子賢 Christy</span>
+                <span class="d-none d-lg-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/a112070080.jpg" alt="李子賢的大頭照" />
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">李子賢</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#school">教育經驗</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">工作經驗</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">最愛的唱片</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">攝影作品</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cta">即刻聯絡</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid p-0">
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0 christy2 blueblue christypadding">
+                        李子賢
+                        <span class="text-primary">Christy</span>
+                    </h1>
+
+                    <div class="subheading mb-5 christy2">
+                        把腦中的想像，變成世界看得到的模樣。
+                    </div>
+
+                    <p class="lead mb-5 christy1">
+                        我喜歡觀察生活中的細節，也習慣從不同角度思考問題。對我來說，每一個想法都不該只是停留在腦海裡，而是值得被實踐、被驗證，甚至被更多人看見。無論是設計、創作、企劃，還是數位產品開發，我始終相信好的作品不只是解決問題，更能帶來感受與價值。一路走來，我持續學習新的技術與知識，將創意轉化為具體成果，並在一次次嘗試中不斷突破自己的可能性。
+未來的路還很長，而我希望能持續保持好奇心與行動力，把每個靈感一步步實現，創造屬於自己的精彩故事。
+                    </p>
+
+                    <div class="christygo pt-5">
+                        <a href="#school"><i class="fa-solid fa-chevron-down"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <section class="resume-section" id="school">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 christycenter">教育經驗</h2>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">
+                                世新大學資傳系
+                                <a href="https://ics.wp.shu.edu.tw/" target="_blank" class="christylink">
+                                    <i class="fa-solid fa-link"></i>
+                                </a>
+                            </h3>
+
+                            <div class="subheading mb-3">學士班</div>
+
+                            <ul class="list-group">
+                                <li class="list-group-item active">超喜愛課程</li>
+                                <li class="list-group-item list-group-item-success">
+                                    <div class="markbig"><i class="fa-brands fa-chrome"></i> 網頁設計</div>
+                                    老師上課有趣，讓我們用理解邏輯還有概念的方式學習程式，雖然是重補修，但我感覺上了一次全新的課程，獲益良多
+                                </li>
+                                <li class="list-group-item list-group-item-danger">
+                                    <div class="markbig"><i class="fa-solid fa-bullhorn"></i> 社會行銷</div>
+                                    這堂是公廣系開放的外系選修，學到用不一樣觀點切入的行銷方式
+                                </li>
+                                <li class="list-group-item list-group-item-primary">
+                                    <div class="markbig"><i class="fa-solid fa-table-tennis-paddle-ball"></i> 桌球課</div>
+                                    我喜歡歸剛怕桌球，老師人也很好，打完桌球感覺都能放鬆壓力
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">２０２３</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">
+                                中壢高中
+                                <a href="https://www.clhs.tyc.edu.tw/home" target="_blank" class="christylink">
+                                    <i class="fa-solid fa-link"></i>
+                                </a>
+                            </h3>
+
+                            <div class="subheading mb-3">日間部畢業</div>
+
+                            <table class="table table-striped table-hover">
+                                <tr class="table-primary">
+                                    <th>科目</th>
+                                    <th>喜愛程度</th>
+                                    <th>理由</th>
+                                    <th>學測分數</th>
+                                </tr>
+                                <tr>
+                                    <td>國文</td>
+                                    <td>
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </td>
+                                    <td>書信撰寫</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>英文</td>
+                                    <td>
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </td>
+                                    <td>簡單實用</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <td>數學</td>
+                                    <td>
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </td>
+                                    <td>超級難</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>社會</td>
+                                    <td>
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </td>
+                                    <td>拓展世界觀</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>自然</td>
+                                    <td>
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </td>
+                                    <td>了解大自然奧妙</td>
+                                    <td>11</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">２０２０</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <section class="resume-section" id="work">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 christycenter">工作經驗</h2>
+
+                    <div class="work-entry">
+                        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-start mb-3">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-1">飲料店店員</h3>
+                                <div class="subheading mb-0">五桐號</div>
+                            </div>
+
+                            <div class="flex-shrink-0">
+                                <span class="text-primary">在職期間:半年</span>
+                            </div>
+                        </div>
+
+                        <div class="work-card">
+                            <div class="work-card-header">工作內容</div>
+                            <div class="work-card-row">主要負責搖飲料、結帳。</div>
+                            <div class="work-card-row">學習到怎麼結帳、五桐號配方、應付奧客。</div>
+                        </div>
+
+                        <div class="work-card ranking-card">
+                            <div class="work-card-header">
+                                <i class="fa-solid fa-ranking-star"></i>
+                                私心排名
+                            </div>
+                            <div class="ranking-row">
+                                <div class="ranking-title">
+                                    <span class="rank-badge">Top1</span>
+                                    雪絨草莓奶酪
+                                </div>
+                                <p class="ranking-note">他是冬天限定冰沙，雖然那時候很冷但反而很過癮，酸酸甜甜比例抓的很剛好，底下還有一顆奶酪，是我的最愛。</p>
+                            </div>
+                            <div class="ranking-row">
+                                <div class="ranking-title">
+                                    <span class="rank-badge">Top2</span>
+                                    紅茶拿鐵加小芋圓
+                                </div>
+                                <p class="ranking-note">不知道喝什麼的時候會喝這個，五桐號的小芋圓很好吃，無糖拿鐵配上小芋圓甜度很剛好，不會過於死甜，喜歡喝拿鐵的人可以這樣搭配。</p>
+                            </div>
+                            <div class="ranking-row">
+                                <div class="ranking-title">
+                                    <span class="rank-badge">Top3</span>
+                                    杏仁凍五桐茶
+                                </div>
+                                <p class="ranking-note">杏仁凍也是我很喜歡的配料，五桐號獨有的，口感濃醇滑嫩，搭配招牌五桐茶也是絕配，夏天的時候來上一杯很解渴。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-entry">
+                        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-start mb-3">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-1">百貨公司櫃姐</h3>
+                                <div class="subheading mb-0">裕隆城服飾櫃位:覓光</div>
+                            </div>
+
+                            <div class="flex-shrink-0">
+                                <span class="text-primary">在職期間:半年</span>
+                            </div>
+                        </div>
+
+                        <div class="work-card">
+                            <div class="work-card-header">工作內容</div>
+                            <div class="work-card-row">主要負責摺衣服、結帳、拍照、店內整潔。</div>
+                            <div class="work-card-row">學習到怎麼摺衣服、衣服銷售話術、燙衣服。</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">最愛的唱片</h2>
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="assets/img/album1.jpg" class="card-img-top album-img" alt="唱片圖片一">
+                                <div class="card-body">
+                                    <h3 class="card-title h4">聖結石/真的不想嘴</h3>
+                                    <p class="card-text">記錄夫妻日常的真實互動與生活點滴，歌詞描寫小倆口即使每天相處，仍會載對方上下班、為彼此學會煮飯，是一首甜蜜又帶有生活寫實感的歌曲。
+
+MV 亮點： 聖結石首次親自執導 MV，前半段唯美浪漫，後半段則真實呈現夫妻吵架的衝突。他甚至在上戲前故意惹怒聖嫂，只為捕捉她最真實的生氣反應。</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://www.youtube.com/watch?v=fWuq67-VSTM&vl=zh-TW" target="_blank" class="btn btn-primary">觀看 MV</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="assets/img/album2.jpg" class="card-img-top album-img" alt="唱片圖片二">
+                                <div class="card-body">
+                                    <h3 class="card-title h4">MC HotDog 熱狗feat.關彥淳Miaca Kuan/輕熟女27</h3>
+                                    <p class="card-text">《輕熟女27》是饒舌歌手 MC HotDog 熱狗於 2012 年收錄在專輯《貧民百万歌星》中的經典曲目。這首歌描寫了他年輕時與大三歲的「輕熟女」談姐弟戀的心境，融合了嘻哈饒舌與鄧麗君名曲《我只在乎你》，帶有幽默又略帶遺憾的成人抒情風。</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://www.youtube.com/watch?v=BMCGpXT69vQ" target="_blank" class="btn btn-primary">觀看 MV</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="assets/img/album3.jpg" class="card-img-top album-img" alt="唱片圖片三">
+                                <div class="card-body">
+                                    <h3 class="card-title h4">聖結石/一定會追到你</h3>
+                                    <p class="card-text">〈一定會追到你〉是台灣知名YouTuber聖結石（曾聖傑）於2017年發布的療癒單曲，被譽為「工具人應援曲」。這首歌生動描述了單戀者為了討好心儀對象，甘願奉獻與努力的奮鬥過程。</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://www.youtube.com/watch?v=V2mZYvAiLsw" target="_blank" class="btn btn-primary">觀看 MV</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">攝影作品</h2>
+
+                    <div class="photo-grid">
+                        <a href="assets/img/photo1.jfif" target="_blank">
+                            <img src="assets/img/photo1.jfif" alt="興趣圖片一">
+                        </a>
+
+                        <a href="assets/img/photo2.jfif" target="_blank">
+                            <img src="assets/img/photo2.jfif" alt="興趣圖片二">
+                        </a>
+
+                        <a href="assets/img/photo3.jfif" target="_blank">
+                            <img src="assets/img/photo3.jfif" alt="興趣圖片三">
+                        </a>
+
+                        <a href="assets/img/photo4.jfif" target="_blank">
+                            <img src="assets/img/photo4.jfif" alt="興趣圖片四">
+                        </a>
+
+                        <a href="assets/img/photo5.jfif" target="_blank">
+                            <img src="assets/img/photo5.jfif" alt="興趣圖片五">
+                        </a>
+
+                        <a href="assets/img/photo6.jfif" target="_blank">
+                            <img src="assets/img/photo6.jfif" alt="興趣圖片六">
+                        </a>
+
+                        <a href="assets/img/photo7.jfif" target="_blank">
+                            <img src="assets/img/photo7.jfif" alt="興趣圖片七">
+                        </a>
+
+                        <a href="assets/img/photo8.jfif" target="_blank">
+                            <img src="assets/img/photo8.jfif" alt="興趣圖片八">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <section class="resume-section" id="cta">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">即刻聯絡</h2>
+
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.instagram.com/lzxnni_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a class="social-icon" href="https://github.com/a112070080" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a class="social-icon" href="https://www.threads.com/@lzxnni_?hl=zh-tw" target="_blank" rel="noopener noreferrer" aria-label="Threads">
+                            <i class="fa-brands fa-threads"></i>
+                        </a>
+                        <a class="social-icon" href="https://www.facebook.com/profile.php?id=100013264097637" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>            }
+
+            @media (min-width: 992px) {
+                section#skills {
+                    width: calc(100vw - 17rem) !important;
+                }
+            }
+
+            .album-img {
+                height: 520px;
+                object-fit: cover;
+            }
+
+            #skills .card {
+                min-height: 760px;
+            }
+
+            #skills .card-text {
+                font-size: 1.1rem;
+                line-height: 1.8;
+            }
+
+            .card-title {
+                color: #343a40;
+            }
+
+            section#interests {
+                max-width: none !important;
+                width: 100% !important;
+            }
+
+            section#interests .resume-section-content {
+                width: 100%;
+            }
+
+            @media (min-width: 992px) {
+                section#interests {
+                    width: calc(100vw - 17rem) !important;
+                }
+            }
+
+            .photo-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 24px;
+            }
+
+            .photo-grid img {
+                width: 100%;
+                height: 360px;
+                object-fit: cover;
+                border-radius: 8px;
+                display: block;
+            }
+
+            @media (max-width: 991px) {
+                .photo-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                .photo-grid img {
+                    height: 260px;
+                }
+            }
+
+            @media (max-width: 575px) {
+                .photo-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            body {
+                font-family: "Microsoft JhengHei", "微軟正黑體", Arial, sans-serif;
+                color: #3f3f3f;
+            }
+
+            #about h1,
+            #about .subheading,
+            .christy1 {
+                font-family: "Microsoft JhengHei", "微軟正黑體", Arial, sans-serif !important;
+                color: #ffffff !important;
+                font-weight: 800;
+            }
+
+            #about h1.christypadding {
+                padding-bottom: 20px;
+            }
+
+            #about .subheading {
+                margin-top: 0;
+                margin-bottom: 2rem !important;
+            }
+
+            #about h1 .text-primary {
+                font-family: Georgia, "Times New Roman", serif !important;
+                color: #5a3825 !important;
+                font-weight: 700;
+            }
+
+            .christy1 {
+                background-color: transparent !important;
+                padding: 0;
+                border-radius: 0;
+                height: auto;
+                overflow: visible;
+                width: 85%;
+                text-align: left;
+            }
+
+            .christycenter {
+                color: #5a3825 !important;
+                background-color: transparent !important;
+                border: none !important;
+                padding: 0 !important;
+                border-radius: 0 !important;
+            }
+
+            .list-group-item.active {
+                background-color: #8FBFC8 !important;
+                border-color: #8FBFC8 !important;
+                color: #ffffff !important;
+            }
         </style>
     </head>
 
